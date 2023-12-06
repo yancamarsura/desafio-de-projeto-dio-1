@@ -1,0 +1,9 @@
+O que é Git e para que serve?
+
+É um Sistema de Controle de Versões Distribuído ou DVCS, criado por Linus Torvalds. Possui a função de registrar qualquer alteração feita em um código, armazena as informações permitindo, caso seja necessário, que um programador(a) possa regredir a versões anteriores de uma aplicação de modo simples e rápido. É muito útil para se trabalhar em equipe.
+
+O que é GitHub e para que serve?
+
+É uma plataforma totalmente online de hospedagem de código e arquivos com controle de versão usando o Git. É semelhante a uma rede social voltada para profissionais de TI (Tecnologia da Informação). Nele é possível criar repositórios (locais de armazenamento) para hospedar projetos, colaborar com softwares open source (Que tem código fonte disponibilizado e licenciado), seguir programadores(as) e interagir com códigos de terceiros.
+
+O GitHub armazena todos estes dados em uma nuvem e você pode acessá-los de onde estiver: basta logar-se no site em qualquer navegador.
