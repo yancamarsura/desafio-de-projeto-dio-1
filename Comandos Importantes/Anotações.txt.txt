@@ -1,0 +1,53 @@
+Alguns comandos básicos do git mais importantes para o dia a dia:
+
+git config: Quando utilizar o Git pela primeira vez ou for fazer uma instalação nova, em um projeto colaborativo, esse comando é fundamental para fazer configurações como identidade de usuário, inserir informações como nome e email que serão empregadas em cada commit.
+
+Exemplo: $ git config –global user.name “Seu nome”
+
+git init: É o comando usado para utilizar na criação de um novo projeto de git. O comando irá criar um repositório novo em branco e, a partir daí, será possível armazenar seu código fonte, alterar, salvar, guardar alterações e etc.
+
+Exemplo:
+
+$ git init
+
+Se você já possui um repositório anterior ou deseja criar um repositório com um nome em específico, você pode passar o nome como parâmetro do comando:
+
+$ git init <O nome do seu repositório>
+
+git clone: Esse comando Git cria uma cópia exata de um repositório já existente, ele verifica todo o conteúdo do projeto.
+
+Exemplo:
+
+git clone <URL do seu projeto>
+
+git add .: adiciona os arquivos especificados de código ao seu repositório, sejam arquivos novos ou arquivos anteriores que foram alterados. 
+
+$ git add seu_arquivo (esse comando irá adicionar o arquivo em específico ao repositório)
+
+$ git add * (esse comando irá adicionar todos os arquivos novos e/ou modificados ao repositório)
+
+git commit: executa o commit dos arquivos que foram adicionados e cria uma nova revisão com um log. É possível adicionar uma mensagem para a execução de um commit.
+
+$ git commit -m “seu comentário”
+
+git branch:  um branch é um caminho independente de desenvolvimento, uma alternativa.
+
+$ git branch (lista todas as ramificações)
+
+$ git branch <nome_do_branch> (cria um branch com o nome especificado)
+
+$ git branch -d <nome_do_branch> (deleta o branch com o nome especificado)
+
+git checkout: pode ser utilizado para trocar de uma ramificação para outra.
+
+$ git checkout <nome_do_branch>
+
+É possível combinar operações, criando e fazendo o checkout de um novo branch com um único comando:
+
+$ git checkout -b <nome_do_branch_novo>
+
+
+
+
+
+
